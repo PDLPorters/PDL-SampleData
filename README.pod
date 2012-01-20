@@ -12,7 +12,7 @@ PDL::SampleData - Easy access to data used in the L<PDL> examples and the L<PDL:
 
 C<PDL::SampleData> allows easy access to the data needed to follow along with the examples and the L<PDL::Book>.
 
-=head1 FUNCTIONS 
+=head1 FUNCTIONS
 
 Nothing is exported by default. Any of the following functions may be explicitly imported, or import them all with the tag  C<:all>.
 
@@ -24,13 +24,13 @@ Takes the name (with extension) of the file requested. On success it returns the
 
 Takes the name (with extension) of the file requested. On success it returns the data as a L<PDL> object. On failure a warning is issued and a C<undef> is returned.
 
-=head2 sample_files
+=head2 sample_files()
 
 Takes no arguments, returns the sample data files that are available by using C<get_*>.
 
 =head1 SEE ALSO
 
-=over
+=over 4
 
 =item *
 
@@ -56,3 +56,4 @@ Copyright (C) 2012 by Joel Berger
 
 This library is free software; you can redistribute it and/or modify
 it under the same terms as Perl itself.
+
